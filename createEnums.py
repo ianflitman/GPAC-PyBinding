@@ -59,10 +59,12 @@ def createEnumClasses():
         src.close()
 
     for x in listdir(srcPath):
-        filesPreGenerated.update(set(listdir(srcPath + '/' + x)))
+        if(x!='__init__.py'):
+            filesPreGenerated.update(set(listdir(srcPath + '/' + x)))
 
-parseHeader('../xml/isomedia.xml')
-parseHeader('../xml/isomedia_dev.xml')
+this_module_dir_path = os.path.abspath(os.path.dirname(sys.modules[__name__].__file__))
+parseHeader(this_module_dir_path + '/xml/isomedia.xml')
+parseHeader(this_module_dir_path + '/xml/isomedia_dev.xml')
 print(filesPreGenerated)
 
 

@@ -50,7 +50,6 @@ def parseHeader(filename):
             filesPreGenerated.update(set(listdir(srcPath + '/' + x)))
     print(filesPreGenerated)
 
-
 def processField(field):
     isPointer = bool(0)
     while ('type' in field.attrib):
@@ -110,10 +109,8 @@ def writeStruct(struct, types):
 
     src.close()
 
-parseHeader('../xml/isomedia.xml')
-# root = codeXML.getroot()
-# structs = root.findall('Struct')
-# structs = FilterElement.filter(xmlRoot=root, elements=structs, library='GF', type='Structs')
+this_module_dir_path = os.path.abspath(os.path.dirname(sys.modules[__name__].__file__))
+parseHeader(this_module_dir_path + '/xml/isomedia.xml')
 
 
 
