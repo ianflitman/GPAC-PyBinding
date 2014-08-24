@@ -47,19 +47,19 @@ def createEnumClasses():
             src = open(file, 'a')
         else:
             src = open(file, 'w')
-            src.write('from enum import Enum\nfrom ctypes import c_int\n\nclass ' + enum.attrib['class'] +'(Enum):\n')
+            src.write('from enum import Enum\nfrom ctypes import c_int\n\n\nclass ' + enum.attrib['class'] + '(Enum):\n')
 
         enumValues = enum.findall('EnumValue')
         for x in enumValues:
             name = x.attrib['name']
             init = x.attrib['init']
             print(name, init)
-            src.write('\t' + name + ' = c_int(' + init + ')\n')
+            src.write((' '*4) + name + ' = c_int(' + init + ')\n')
 
         src.close()
 
     for x in listdir(srcPath):
-        if(x!='__init__.py'):
+        if x!='__init__.py':
             filesPreGenerated.update(set(listdir(srcPath + '/' + x)))
 
 this_module_dir_path = os.path.abspath(os.path.dirname(sys.modules[__name__].__file__))
