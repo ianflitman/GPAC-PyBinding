@@ -1,5 +1,6 @@
 from ctypes import *
 from mpeg4odf import GF_DefaultDescriptor
+from mpeg4odf import GF_DefaultDescriptor
 from list import GF_List
 
 

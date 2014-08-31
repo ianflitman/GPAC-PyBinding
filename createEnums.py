@@ -20,16 +20,17 @@ def parseHeader(filename):
     root = codeXML.getroot()
     global enums
     enums = root.findall('Enumeration')
-    enums = FilterElement.filter(xmlRoot = root, elements = enums, type = 'Enumeration', library='gpac', header='isomedia')
+    enums = FilterElement.filter(xmlRoot=root, elements=enums, type='Enumeration', library='gpac', header='isomedia')
     createEnumClasses()
 
 def createEnumClasses():
-    this_module_dir_path = os.path.abspath ( os.path.dirname( sys.modules[__name__].__file__) )
+    global this_module_dir_path
+    this_module_dir_path = os.path.abspath( os.path.dirname( sys.modules[__name__].__file__))
     srcPath = this_module_dir_path + codeRoot
 
     global enums
     for enum in enums:
-        if(enum.attrib['class'] + '.py' in filesPreGenerated):
+        if enum.attrib['class'] + '.py' in filesPreGenerated:
             continue
 
         print(enum.attrib)
@@ -43,7 +44,7 @@ def createEnumClasses():
             init.close()
 
         file = packagePath + '/' + enum.attrib['class'] + '.py'
-        if((os.path.exists(file))):
+        if os.path.exists(file):
             src = open(file, 'a')
         else:
             src = open(file, 'w')
@@ -59,7 +60,7 @@ def createEnumClasses():
         src.close()
 
     for x in listdir(srcPath):
-        if x!='__init__.py':
+        if x != '__init__.py':
             filesPreGenerated.update(set(listdir(srcPath + '/' + x)))
 
 this_module_dir_path = os.path.abspath(os.path.dirname(sys.modules[__name__].__file__))

@@ -1,7 +1,137 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2c22e1c3-21b7-4fc9-b2f3-7215b8c77aea" name="Default" comment="" />
+    <list default="true" id="2c22e1c3-21b7-4fc9-b2f3-7215b8c77aea" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/patches/GF_BitStream.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/patches/__init__.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/structs/isomedia/GF_3GPConfig.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/structs/isomedia/GF_AC3Config.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/structs/isomedia/GF_DIMSDescription.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/structs/isomedia/GF_GenericSampleDescription.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/structs/isomedia/GF_ISMASample.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/structs/isomedia/GF_ISOSample.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/structs/isomedia/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/structs/mpeg4odf/GF_AVCConfig.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/structs/mpeg4odf/GF_AVCConfigSlot.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/structs/mpeg4odf/GF_AuxVideoDescriptor.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/structs/mpeg4odf/GF_BaseODCom.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/structs/mpeg4odf/GF_BoxRecord.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/structs/mpeg4odf/GF_CCDescriptor.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/structs/mpeg4odf/GF_CC_Date.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/structs/mpeg4odf/GF_CC_Name.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/structs/mpeg4odf/GF_CIDesc.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/structs/mpeg4odf/GF_ContentCreatorInfo.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/structs/mpeg4odf/GF_DecoderConfig.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/structs/mpeg4odf/GF_DefaultDescriptor.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/structs/mpeg4odf/GF_Descriptor.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/structs/mpeg4odf/GF_ESD.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/structs/mpeg4odf/GF_ESDRemove.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/structs/mpeg4odf/GF_ESDUpdate.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/structs/mpeg4odf/GF_ES_ID_Inc.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/structs/mpeg4odf/GF_ES_ID_Ref.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/structs/mpeg4odf/GF_ETD_ItemText.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/structs/mpeg4odf/GF_ElementaryMask.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/structs/mpeg4odf/GF_ExpandedTextual.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/structs/mpeg4odf/GF_FontRecord.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/structs/mpeg4odf/GF_GF_IPMPX_Base.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/structs/mpeg4odf/GF_GenericSubtitleConfig.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/structs/mpeg4odf/GF_GenericSubtitleSampleDescriptor.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/structs/mpeg4odf/GF_HEVCConfig.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/structs/mpeg4odf/GF_HEVCParamArray.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/structs/mpeg4odf/GF_IPIPtr.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/structs/mpeg4odf/GF_IPMPPtr.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/structs/mpeg4odf/GF_IPMPRemove.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/structs/mpeg4odf/GF_IPMPUpdate.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/structs/mpeg4odf/GF_IPMPX_AUTH_AlgorithmDescriptor.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/structs/mpeg4odf/GF_IPMPX_AUTH_KeyDescriptor.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/structs/mpeg4odf/GF_IPMPX_AddToolNotificationListener.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/structs/mpeg4odf/GF_IPMPX_Authentication.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/structs/mpeg4odf/GF_IPMPX_ByteArray.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/structs/mpeg4odf/GF_IPMPX_CanProcess.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/structs/mpeg4odf/GF_IPMPX_ConnectTool.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/structs/mpeg4odf/GF_IPMPX_Data.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/structs/mpeg4odf/GF_IPMPX_DisconnectTool.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/structs/mpeg4odf/GF_IPMPX_GetToolContext.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/structs/mpeg4odf/GF_IPMPX_GetToolContextResponse.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/structs/mpeg4odf/GF_IPMPX_GetToolsResponse.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/structs/mpeg4odf/GF_IPMPX_ISMACryp.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/structs/mpeg4odf/GF_IPMPX_InitAuthentication.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/structs/mpeg4odf/GF_IPMPX_KeyData.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/structs/mpeg4odf/GF_IPMPX_MutualAuthentication.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/structs/mpeg4odf/GF_IPMPX_NotifyToolEvent.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/structs/mpeg4odf/GF_IPMPX_OpaqueData.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/structs/mpeg4odf/GF_IPMPX_ParametricDescriptionItem.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/structs/mpeg4odf/GF_IPMPX_RemoveToolNotificationListener.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/structs/mpeg4odf/GF_IPMPX_RightsData.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/structs/mpeg4odf/GF_IPMPX_SecureContainer.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/structs/mpeg4odf/GF_IPMPX_SelEncBuffer.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/structs/mpeg4odf/GF_IPMPX_SelEncField.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/structs/mpeg4odf/GF_IPMPX_SelectiveDecryptionInit.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/structs/mpeg4odf/GF_IPMPX_SendWatermark.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/structs/mpeg4odf/GF_IPMPX_ToolAPI_Config.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/structs/mpeg4odf/GF_IPMPX_ToolParamCapabilitiesQuery.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/structs/mpeg4odf/GF_IPMPX_ToolParamCapabilitiesResponse.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/structs/mpeg4odf/GF_IPMPX_TrustSpecification.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/structs/mpeg4odf/GF_IPMPX_TrustedTool.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/structs/mpeg4odf/GF_IPMPX_WatermarkingInit.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/structs/mpeg4odf/GF_IPMP_Descriptor.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/structs/mpeg4odf/GF_IPMP_Tool.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/structs/mpeg4odf/GF_IPMP_ToolList.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/structs/mpeg4odf/GF_InitialObjectDescriptor.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/structs/mpeg4odf/GF_IsomInitialObjectDescriptor.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/structs/mpeg4odf/GF_IsomObjectDescriptor.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/structs/mpeg4odf/GF_KeyWord.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/structs/mpeg4odf/GF_KeyWordItem.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/structs/mpeg4odf/GF_Language.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/structs/mpeg4odf/GF_MediaTime.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/structs/mpeg4odf/GF_MuxInfo.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/structs/mpeg4odf/GF_OCICreator_item.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/structs/mpeg4odf/GF_OCICreators.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/structs/mpeg4odf/GF_OCI_Data.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/structs/mpeg4odf/GF_ODCom.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/structs/mpeg4odf/GF_ODRemove.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/structs/mpeg4odf/GF_ODUpdate.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/structs/mpeg4odf/GF_ObjectDescriptor.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/structs/mpeg4odf/GF_PLExt.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/structs/mpeg4odf/GF_PL_IDX.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/structs/mpeg4odf/GF_QoS_AvgAUSize.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/structs/mpeg4odf/GF_QoS_Default.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/structs/mpeg4odf/GF_QoS_Descriptor.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/structs/mpeg4odf/GF_QoS_LossProb.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/structs/mpeg4odf/GF_QoS_MaxAURate.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/structs/mpeg4odf/GF_QoS_MaxAUSize.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/structs/mpeg4odf/GF_QoS_MaxDelay.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/structs/mpeg4odf/GF_QoS_MaxGapLoss.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/structs/mpeg4odf/GF_QoS_PrefMaxDelay.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/structs/mpeg4odf/GF_QoS_Private.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/structs/mpeg4odf/GF_Rating.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/structs/mpeg4odf/GF_Registration.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/structs/mpeg4odf/GF_SCIDesc.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/structs/mpeg4odf/GF_SMPTECamera.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/structs/mpeg4odf/GF_Segment.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/structs/mpeg4odf/GF_ShortTextual.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/structs/mpeg4odf/GF_SmpteParam.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/structs/mpeg4odf/GF_StyleRecord.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/structs/mpeg4odf/GF_TextConfig.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/structs/mpeg4odf/GF_TextSampleDescriptor.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/structs/mpeg4odf/GF_UIConfig.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/structs/mpeg4odf/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/structs/synclayer/GF_SLConfig.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/structs/synclayer/GF_SLHeader.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/structs/synclayer/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/structs/tools/GF_SystemRTInfo.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/structs/tools/__init__.py" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/GF_List.py" afterPath="$PROJECT_DIR$/patches/GF_List.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/util/CTypeMapper.py" afterPath="$PROJECT_DIR$/util/CTypeMapper.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/util/FilterElement.py" afterPath="$PROJECT_DIR$/util/FilterElement.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GPAC-PyBinding.iml" afterPath="$PROJECT_DIR$/GPAC-PyBinding.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/util/GPACPatches.py" afterPath="$PROJECT_DIR$/util/GPACPatches.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/createEnums.py" afterPath="$PROJECT_DIR$/createEnums.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/createStructs.py" afterPath="$PROJECT_DIR$/createStructs.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/xml/isomedia.xml" afterPath="$PROJECT_DIR$/xml/isomedia.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="GPAC-PyBinding.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,7 +143,7 @@
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/GPAC-PyBinding$createEnums.coverage" NAME="createEnums Coverage Results" MODIFIED="1408886593934" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/GPAC-PyBinding$createStructs.coverage" NAME="createStructs Coverage Results" MODIFIED="1408885995546" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/GPAC-PyBinding$createStructs.coverage" NAME="createStructs Coverage Results" MODIFIED="1409340887576" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -30,45 +160,37 @@
       <file leaf-file-name="createStructs.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/createStructs.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1007.0" vertical-offset="0" max-vertical-offset="2242">
-              <caret line="112" column="25" selection-start-line="112" selection-start-column="25" selection-end-line="112" selection-end-column="25" />
-              <folding />
+            <state vertical-scroll-proportion="0.0" vertical-offset="764" max-vertical-offset="3420">
+              <caret line="56" column="92" selection-start-line="56" selection-start-column="92" selection-end-line="56" selection-end-column="92" />
+              <folding>
+                <element signature="e#19#56#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GF_AC3Config.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/structs/isomedia/GF_AC3Config.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GF_DIMSDescription.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/structs/isomedia/GF_DIMSDescription.py">
+      <file leaf-file-name="example.log" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/log/example.log">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="380">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <caret line="2" column="49" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="49" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GF_AVCConfig.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/structs/mpeg4odf/GF_AVCConfig.py">
+      <file leaf-file-name="GF_BitStream.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/patches/GF_BitStream.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="456">
-              <caret line="1" column="7" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
+            <state vertical-scroll-proportion="0.060509555" vertical-offset="0" max-vertical-offset="628">
+              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GF_BaseODCom.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/structs/mpeg4odf/GF_BaseODCom.py">
+      <file leaf-file-name="GF_List.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/patches/GF_List.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="266">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -77,43 +199,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+      <file leaf-file-name="GPACPatches.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/util/GPACPatches.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.82196337" vertical-offset="0" max-vertical-offset="1159">
-              <caret line="26" column="69" selection-start-line="26" selection-start-column="69" selection-end-line="26" selection-end-column="69" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="163" max-vertical-offset="722">
+              <caret line="20" column="35" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GF_DecoderConfig.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/structs/mpeg4odf/GF_DecoderConfig.py">
+      <file leaf-file-name="FilterElement.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/util/FilterElement.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="475">
-              <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#20#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GF_3GPConfig.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/structs/isomedia/GF_3GPConfig.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="361">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="171" max-vertical-offset="1197">
+              <caret line="10" column="56" selection-start-line="10" selection-start-column="56" selection-end-line="10" selection-end-column="56" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="__init__.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/structs/list/__init__.py">
+      <file leaf-file-name="isomedia.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/xml/isomedia.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="114">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="102562" max-vertical-offset="156370">
+              <caret line="5407" column="44" selection-start-line="5407" selection-start-column="26" selection-end-line="5407" selection-end-column="44" />
               <folding />
             </state>
           </provider>
@@ -139,13 +249,25 @@
       <list>
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/enums/bitstream/Bitstream.py" />
-        <option value="$PROJECT_DIR$/createEnums.py" />
-        <option value="$PROJECT_DIR$/createStructs.py" />
         <option value="$PROJECT_DIR$/structs/mpeg4odf/GF_DecoderConfig.py" />
+        <option value="$PROJECT_DIR$/createEnums.py" />
+        <option value="$PROJECT_DIR$/structs/mpeg4odf/GF_IPMPX_ToolParamCapabilitiesQuery.py" />
+        <option value="$PROJECT_DIR$/util/CTypeMapper.py" />
+        <option value="$PROJECT_DIR$/util/GPACPatches.py" />
+        <option value="$PROJECT_DIR$/util/FilterElement.py" />
+        <option value="$PROJECT_DIR$/xml/isomedia.xml" />
+        <option value="$PROJECT_DIR$/structs/bitstream/__tag_bitstream.py" />
+        <option value="$PROJECT_DIR$/log/example.log" />
+        <option value="$PROJECT_DIR$/createStructs.py" />
+        <option value="$PROJECT_DIR$/patches/GF_BitStream.py" />
       </list>
     </option>
   </component>
-  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP 5.5">
+    <include_path>
+      <path value="/usr/share/php" />
+    </include_path>
+  </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="65" />
     <option name="y" value="24" />
@@ -197,52 +319,14 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="GPAC-PyBinding" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GPAC-PyBinding" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GPAC-PyBinding" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GPAC-PyBinding" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GPAC-PyBinding" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="structs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GPAC-PyBinding" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GPAC-PyBinding" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="enums" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -256,18 +340,18 @@
     <property name="MemberChooser.sorted" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="MemberChooser.copyJavadoc" value="false" />
-    <property name="options.lastSelected" value="appearance" />
+    <property name="options.lastSelected" value="preferences.pluginManager" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="ignore_missing_gitignore" value="true" />
     <property name="FullScreen" value="false" />
-    <property name="project.structure.last.edited" value="Global Libraries" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="recentsLimit" value="5" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/createEnums.py" />
+    <property name="last_opened_file_path" value="/usr/bin/python2.7" />
     <property name="restartRequiresConfirmation" value="true" />
   </component>
   <component name="PyConsoleOptionsProvider">
@@ -279,8 +363,11 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/structs/list" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/patches" />
+    </key>
   </component>
-  <component name="RunManager" selected="Python.createEnums">
+  <component name="RunManager" selected="Python.createStructs">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
@@ -550,7 +637,9 @@
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/createStructs.py" />
       <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PyDebugRunner" />
       <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PyDebugRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
       <method />
     </configuration>
@@ -603,7 +692,20 @@
       <workItem from="1408881419189" duration="512000" />
       <workItem from="1408881942915" duration="140000" />
       <workItem from="1408882095732" duration="143000" />
-      <workItem from="1408882250490" duration="5294000" />
+      <workItem from="1408882250490" duration="18245000" />
+      <workItem from="1408990115501" duration="3803000" />
+      <workItem from="1409053196146" duration="119000" />
+      <workItem from="1409060847374" duration="2209000" />
+      <workItem from="1409130473279" duration="69000" />
+      <workItem from="1409140180687" duration="17000" />
+      <workItem from="1409141038571" duration="23000" />
+      <workItem from="1409204864087" duration="2542000" />
+      <workItem from="1409209158316" duration="1936000" />
+      <workItem from="1409215857913" duration="50000" />
+      <workItem from="1409239138331" duration="7306000" />
+      <workItem from="1409251010165" duration="1497000" />
+      <workItem from="1409291258296" duration="3252000" />
+      <workItem from="1409331209408" duration="7667000" />
     </task>
     <task id="LOCAL-00001" summary="Create README.md and adhere to PEP8 warnings (except those for camel case variable names) so code generation for example does not use tabs but spaces instead.&#10;">
       <created>1408886691335</created>
@@ -613,37 +715,37 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6089000" />
+    <option name="totallyTimeSpent" value="49530000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1855" height="1056" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39918533" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3299389" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="RESTClient" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="RESTClient" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24959569" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3299389" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24150944" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32892057" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3299389" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3299389" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -665,105 +767,287 @@
     <option name="LAST_COMMIT_MESSAGE" value="Create README.md and adhere to PEP8 warnings (except those for camel case variable names) so code generation for example does not use tabs but spaces instead.&#10;" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/createStructs.py</url>
+          <line>138</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/util/GPACPatches.py</url>
+          <line>7</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/util/CTypeMapper.py</url>
+          <line>8</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/createStructs.py</url>
+          <line>132</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/createStructs.py</url>
+          <line>155</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/util/FilterElement.py</url>
+          <line>40</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/util/FilterElement.py</url>
+          <line>37</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/util/FilterElement.py</url>
+          <line>46</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/createStructs.py</url>
+          <line>82</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/createStructs.py</url>
+          <line>79</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/createStructs.py</url>
+          <line>75</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/createStructs.py</url>
+          <line>76</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/createStructs.py</url>
+          <line>71</line>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/createStructs.py</url>
+          <line>69</line>
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="49" />
+    </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/README.md">
+    <entry file="file://$PROJECT_DIR$/structs/mpeg4odf/__tag_laser_config.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="475">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/structs/mpeg4odf/__tag_bifs_config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="437">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/lib/python3.4/xml/etree/ElementPath.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="4108" max-vertical-offset="5966">
+          <caret line="226" column="0" selection-start-line="226" selection-start-column="0" selection-end-line="226" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_PLUGINS_DIR$/python/helpers/pydev/_pydev_execfile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="258" max-vertical-offset="817">
+          <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util/GPACPatches.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="380" max-vertical-offset="722">
+          <caret line="20" column="35" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GF_List.py">
+    <entry file="file://$PROJECT_DIR$/util/FilterElement.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="570" max-vertical-offset="1216">
+          <caret line="30" column="1" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/util/CTypeMapper.py">
+    <entry file="file://$PROJECT_DIR$/xml/isomedia.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="345">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="110390" max-vertical-offset="156370">
+          <caret line="5819" column="42" selection-start-line="5819" selection-start-column="30" selection-end-line="5819" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xml/isomedia.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="17841" max-vertical-offset="156370">
+          <caret line="948" column="36" selection-start-line="948" selection-start-column="26" selection-end-line="948" selection-end-column="36" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/util/GPACPatches.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="330">
-          <caret line="7" column="43" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="133" max-vertical-offset="589">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/createStructs.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="360" max-vertical-offset="1770">
-          <caret line="30" column="25" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2432">
+          <caret line="102" column="8" selection-start-line="102" selection-start-column="8" selection-end-line="102" selection-end-column="8" />
+          <folding>
+            <element signature="e#19#56#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util/FilterElement.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="684" max-vertical-offset="1216">
+          <caret line="36" column="40" selection-start-line="36" selection-start-column="40" selection-end-line="36" selection-end-column="40" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/xml/isomedia.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="915">
-          <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GF_List.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="238">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/util/CTypeMapper.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="391">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="17841" max-vertical-offset="156370">
+          <caret line="948" column="36" selection-start-line="948" selection-start-column="26" selection-end-line="948" selection-end-column="36" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/util/GPACPatches.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="374">
-          <caret line="7" column="43" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="133" max-vertical-offset="589">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/createStructs.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="2006">
-          <caret line="30" column="25" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2432">
+          <caret line="102" column="8" selection-start-line="102" selection-start-column="8" selection-end-line="102" selection-end-column="8" />
+          <folding>
+            <element signature="e#19#56#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util/FilterElement.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="684" max-vertical-offset="1216">
+          <caret line="36" column="40" selection-start-line="36" selection-start-column="40" selection-end-line="36" selection-end-column="40" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/xml/isomedia.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="1037">
-          <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="17841" max-vertical-offset="156370">
+          <caret line="948" column="36" selection-start-line="948" selection-start-column="26" selection-end-line="948" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util/GPACPatches.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="133" max-vertical-offset="589">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/createStructs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2432">
+          <caret line="102" column="8" selection-start-line="102" selection-start-column="8" selection-end-line="102" selection-end-column="8" />
+          <folding>
+            <element signature="e#19#56#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util/FilterElement.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="684" max-vertical-offset="1216">
+          <caret line="36" column="40" selection-start-line="36" selection-start-column="40" selection-end-line="36" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xml/isomedia.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="17841" max-vertical-offset="156370">
+          <caret line="948" column="36" selection-start-line="948" selection-start-column="26" selection-end-line="948" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util/GPACPatches.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="133" max-vertical-offset="589">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/createStructs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2432">
+          <caret line="33" column="19" selection-start-line="33" selection-start-column="19" selection-end-line="33" selection-end-column="19" />
+          <folding>
+            <element signature="e#19#56#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util/FilterElement.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="346" max-vertical-offset="1045">
+          <caret line="40" column="76" selection-start-line="40" selection-start-column="76" selection-end-line="40" selection-end-column="76" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xml/isomedia.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="154836" max-vertical-offset="156370">
+          <caret line="8043" column="0" selection-start-line="8043" selection-start-column="0" selection-end-line="8043" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util/GPACPatches.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="589">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -772,15 +1056,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GF_List.py">
+    <entry file="file://$PROJECT_DIR$/patches/GF_List.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -804,7 +1086,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1770">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#19#56#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -812,7 +1096,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="915">
           <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -820,39 +1103,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="255">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GF_List.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="953">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/util/CTypeMapper.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="953">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/util/GPACPatches.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="418">
-          <caret line="7" column="43" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/createEnums.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="513" max-vertical-offset="1387">
-          <caret line="45" column="34" selection-start-line="45" selection-start-column="34" selection-end-line="45" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -860,7 +1110,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="601">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -868,79 +1117,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="601">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/structs/mpeg4odf/GF_AuxVideoDescriptor.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="601">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/structs/tools/GF_SystemRTInfo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="601">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/createStructs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1007.0" vertical-offset="0" max-vertical-offset="2242">
-          <caret line="112" column="25" selection-start-line="112" selection-start-column="25" selection-end-line="112" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/structs/isomedia/GF_AC3Config.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="601">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/structs/isomedia/GF_ISOSample.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="601">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/structs/isomedia/GF_ISMASample.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="601">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/structs/isomedia/GF_GenericSampleDescription.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="601">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/structs/mpeg4odf/GF_AVCConfig.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="456">
-          <caret line="1" column="7" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/structs/mpeg4odf/GF_BaseODCom.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="627">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -948,48 +1124,120 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="601">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/structs/mpeg4odf/GF_AVCConfigSlot.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="601">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/structs/isomedia/GF_3GPConfig.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="627">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/structs/isomedia/GF_DIMSDescription.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="601">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/structs/mpeg4odf/GF_DecoderConfig.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="475">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#20#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.82196337" vertical-offset="0" max-vertical-offset="1159">
-          <caret line="26" column="69" selection-start-line="26" selection-start-column="69" selection-end-line="26" selection-end-column="69" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1159">
+          <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/createEnums.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="387" max-vertical-offset="1406">
+          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util/CTypeMapper.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="532">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_PLUGINS_DIR$/python/helpers/pydev/_pydev_execfile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="258" max-vertical-offset="817">
+          <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/structs/mpeg4odf/__tag_bifs_config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="533">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/structs/mpeg4odf/__tag_laser_config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="559">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/structs/mpeg4odf/__tag_oci_codec.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="559">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/lib/python3.4/xml/etree/ElementPath.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33273703" vertical-offset="4773" max-vertical-offset="5966">
+          <caret line="261" column="0" selection-start-line="261" selection-start-column="0" selection-end-line="261" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util/GPACPatches.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="722">
+          <caret line="20" column="35" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util/FilterElement.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="171" max-vertical-offset="1197">
+          <caret line="10" column="56" selection-start-line="10" selection-start-column="56" selection-end-line="10" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/createStructs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="764" max-vertical-offset="3420">
+          <caret line="56" column="92" selection-start-line="56" selection-start-column="92" selection-end-line="56" selection-end-column="92" />
+          <folding>
+            <element signature="e#19#56#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xml/isomedia.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="102562" max-vertical-offset="156370">
+          <caret line="5407" column="44" selection-start-line="5407" selection-start-column="26" selection-end-line="5407" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/patches/GF_List.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="266">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/example.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="380">
+          <caret line="2" column="49" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/patches/GF_BitStream.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.060509555" vertical-offset="0" max-vertical-offset="628">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1039,7 +1287,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.28726554" />
               </list>
             </option>
           </splitter-proportions>
@@ -1052,7 +1300,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

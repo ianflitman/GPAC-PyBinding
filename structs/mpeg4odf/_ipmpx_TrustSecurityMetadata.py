@@ -1,10 +1,11 @@
 from ctypes import *
+from list import GF_List
 
 
-class GF_IPMPX_ToolParamCapabilitiesQuery(Structure):
+class _ipmpx_TrustSecurityMetadata(Structure):
     _fields_=[
         ("tag", c_char),
         ("Version", c_char),
         ("dataID", c_char),
-        ("description", POINTER(GF_TagIPMPXParamDesc))
+        ("TrustedTools", POINTER(GF_List))
     ]

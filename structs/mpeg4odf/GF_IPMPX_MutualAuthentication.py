@@ -19,6 +19,6 @@ class GF_IPMPX_MutualAuthentication(Structure):
         ("certificates", POINTER(GF_List)),
         ("publicKey", POINTER(GF_IPMPX_AUTH_KeyDescriptor)),
         ("opaque", POINTER(GF_IPMPX_ByteArray)),
-        ("trustData", _ipmpx_TrustSecurityMetadata),
+        ("trustData", POINTER(GF_IPMPX_TrustSecurityMetadata)),
         ("authCodes", POINTER(GF_IPMPX_ByteArray))
     ]

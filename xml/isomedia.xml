@@ -143,7 +143,7 @@
   </Function>
   <Struct id="_48" name="GF_IPMPX_GetToolContextResponse" context="_1" mangled="31GF_IPMPX_GetToolContextResponse" demangled="GF_IPMPX_GetToolContextResponse" location="f4:1521" file="f4" line="1521" size="96" align="32" members="_1513 _1514 _1515 _1516 _1517 _1518 _1519 _1520 _1521 _1522 " bases=""/>
   <Union id="_49" name="pthread_condattr_t" context="_1" mangled="18pthread_condattr_t" demangled="pthread_condattr_t" location="f12:159" file="f12" line="159" size="32" align="32" members="_1523 _1524 _1525 _1526 _1527 _1528 " bases=""/>
-  <Function id="_50" name="bzero" returns="_121" throw="" context="_1" location="f0:459" file="f0" line="459" extern="1" attributes="nothrow __nonnull__()">
+  <Function id="_50" name="bzero" returns="_121" throw="" context="_1" locaGFtion="f0:459" file="f0" line="459" extern="1" attributes="nothrow __nonnull__()">
     <Argument name="__s" type="_398" location="f0:459" file="f0" line="459"/>
     <Argument name="__n" type="_938" location="f0:459" file="f0" line="459"/>
   </Function>
@@ -2653,7 +2653,7 @@
     <EnumValue name="GF_ISOM_TRAF_RANDOM_ACCESS" init="1"/>
     <EnumValue name="GF_ISOM_TRAF_DATA_CACHE" init="2"/>
   </Enumeration>
-  <Function id="_776" name="__builtin_cpowl" returns="_1511" context="_1" mangled="cpowl" location="f1:131" file="f1" line="131" extern="1" attributes="nothrow pure no vops">
+  <Function id="_776" name="__builtin_cpowl" returns="_1511" conte4xt="_1" mangled="cpowl" location="f1:131" file="f1" line="131" extern="1" attributes="nothrow pure no vops">
     <Argument type="_1511" location="f1:131" file="f1" line="131"/>
     <Argument type="_1511" location="f1:131" file="f1" line="131"/>
   </Function>
